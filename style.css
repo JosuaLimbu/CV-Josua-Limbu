@@ -1,0 +1,435 @@
+body {
+    background: #141E30;
+    background: -webkit-linear-gradient(-45deg, #113053, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(-45deg, #113053, #141E30);    
+    
+    padding-top: 2em;
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+  }
+/* Kumpulan tambahan font */
+  @font-face {
+    font-family: bebas;
+    src: url(Font/BebasNeue.otf);
+  }
+  @font-face {
+    font-family: simplifica;
+    src: url(Font/SIMPLIFICA.ttf);
+  }
+  /* Bagian Menu*/
+  .container{
+    height: 9%;
+    width: 100%;
+    background-color:#2e9ea20a;
+    position: fixed;
+    left: 0px;
+    top: 0px  ;
+    color: white;
+    font-family:bebas ;
+    font-size: 25px;
+    
+  }
+  a{
+    color: white;
+    text-decoration: none
+  }
+  a:link{
+    color: white;
+    text-decoration: none
+  }
+  a:hover{
+    color: #ee9300f3;
+    text-decoration: none
+  }
+  #menu {
+    text-align: right;
+    width: 100%;
+    height: 65px;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+.menu-img {
+ top: 10px;
+  float: right;
+  width: 50px;
+  
+}
+
+#menu ul {
+    list-style: none;
+
+}
+#menu ul li {
+  text-align: right;
+    float: left;
+    line-height: 65px
+    
+}
+#menu ul li a {
+  text-align: right;
+    float:left; 
+    width:100px; 
+    display:block; 
+    
+    color:#FFF; 
+    text-decoration:none; 
+}
+#menu ul ul {
+  text-align: right;
+    display:none; 
+    list-style:none; 
+    position:absolute; 
+    
+    float: none;
+    top:48px; 
+    width:190px;
+}
+#menu ul li a:hover {
+   
+    display:block;
+    color: #ee9300f3;
+    text-decoration: none
+}
+#menu ul li:hover ul {
+    display:block;
+    color: #ee9300f3;
+    text-decoration: none
+}
+#menu ul ul li a {
+    display:block; 
+    width:100px;
+    height: 35px;
+    line-height: 60px;
+    text-align: right;
+    padding-right:300px; 
+}
+
+  /* Halaman Pertama*/
+
+  
+  .opening {
+    color: white;
+    font-family:bebas ;
+    font-size: 40px;
+    
+  }
+  .curriculum{
+    color: white;
+    font-family: sans-serif;
+    font: bold;
+    font-size: 90px;
+  }
+  .curriculum span{
+    color: #EE9200;
+    
+  }
+  .opening2 {
+    color: white;
+    font-family:'Times New Roman' ;
+    font-size: 25px;
+  }
+  .gambar {
+   
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  /* Animasi Ketikan*/
+
+  .typewriter h3 {
+    color: white;
+    overflow: hidden; 
+    font-family: serif;
+    border-right: .15em solid orange; 
+    white-space: nowrap;
+    margin: 0;
+    letter-spacing: .15em;
+    animation: 
+      typing 2s steps(40, end),
+      blink-caret .75s step-end infinite;
+      
+  }
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+
+  }
+  .typewriter{
+    padding: 40px;
+  }
+  .image {
+   
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+  }
+  
+  
+  .writer-img {
+    -webkit-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    -moz-box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    box-shadow: 5px 0px 5px 0px rgba(0, 0, 50, 0.97);
+    float: left;
+    width: 50px;
+  }
+  
+  /* Style ABOUT ME*/
+  .about{
+    color: white;
+    font-family: bebas;
+    font-size: 40px;
+
+  }
+  .nama h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 40px;
+    white-space: nowrap;
+    
+  }
+  .nama span{
+    font-family: simplifica;
+    font-size: 23px;
+    letter-spacing: .10em;
+    color: white;
+    
+  }
+  .intro1{
+    color: white;
+
+  }
+  .intro2{
+    color: white;
+  }
+
+  .kenalan{
+    color: white;
+    font-family: serif;
+    font-size: 23px;
+    
+    text-decoration: none
+  }
+
+/* Bagian EDUCATION */
+
+  .sekolah{
+    color: white;
+    font-family: serif;
+    font-size: 23px;
+    
+    text-decoration: none;
+  }
+  #list ul li{
+    height: 40px;
+    list-style: none;
+  }
+  
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Bagian Skills */
+
+.skill{
+  color: white;
+  text-transform: uppercase;
+  font-family: simplifica;   
+     list-style: none;
+     padding: 0;
+     margin: 0;
+     letter-spacing: .15em;
+  font-size: 23px;
+ }
+ h1{
+    text-align: center;
+ }
+ h3{
+   margin: 5px;  
+ }
+ .skill{
+     width: 500px;
+     margin: 0px auto;
+     color: #fff;
+     padding: 20px;
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);    
+ }
+ .skill li{
+     margin: 20px;
+     padding: 1px;
+       
+ }
+ .bar{
+     background: #353b48;
+     display: block;
+     height: 20px;
+     border: 1px solid rgba(0, 0, 0, 0.3) ;
+     border-radius: 10px;
+     overflow: hidden;
+     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+ 
+ }
+ .bar:hover{
+    
+     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+ }
+ .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+ }
+ .html{
+    width: 70%;
+    animation: html 3s;
+ }
+ .css{
+     width: 40%;
+     animation: css 3s;
+  }
+  .java{
+     width: 25%;
+     animation: java 3s;
+  }
+  .ps{
+     width: 85%;
+     animation: ps 3s;
+  }
+  @keyframes html{
+      0%{
+          width: 0%;
+      }
+      100%{
+          width: 70%;
+      }
+  }
+  @keyframes css{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width: 40%;
+     }
+ }
+ @keyframes java{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width: 25%;
+     }
+ }
+ @keyframes ps{
+     0%{
+         width: 0%;
+     }
+     100%{
+         width: 85%;
+     }
+ }
+    
+ 
+ 
+ 
+
+/* Bagian Contact Me */
+.sekolah{
+  color: white;
+  font-family: serif;
+  font-size: 23px;
+  
+  text-decoration: none;
+}
+#list ul li{
+  height: 40px;
+  list-style: none;
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Bagian Contact Me*/
+
+.main{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 5px;
+  top: 180px;
+  left: 650px;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background: #fff;
+  padding: 40px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,.2);
+
+}
+.main h2{
+  margin: 0 40px;
+  padding: 15px;
+  color: #0092E6;
+  text-transform: uppercase;
+  text-align: center ;
+  font-weight: bold;
+}
+.main .border{
+  width: 70px;
+  height: 3px;
+  background: #00b8e6;
+  margin: 1px auto;
+}
+.main input{
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.main textarea{
+  height: 80px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+
+}
+.main input, 
+.main textarea{
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;  
+  border-bottom: 2px solid #999; 
+}
+.main textarea{
+  margin-bottom: 20px;
+
+}
+.main input[type="submit"]{
+  border-bottom: none;
+  cursor: pointer;
+  background: #0092e6;
+  color: #fff;
+  margin-bottom: 0;
+  text-transform: uppercase;
+
+}
+
+.main input[type="submit"]:hover{
+  background: #00b8e6;    
+}
+
